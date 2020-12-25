@@ -8,7 +8,8 @@ public class BrowserTester {
 	public static void main(String[] args) {
 		// Object is the parent for all classes
 		// Browser is the child class for the object
-		Object obj = new Browser();
+		Object obj = new Object();
+		Object obj1 = new Browser();
 		// methods of object
 		obj.equals(obj);
 		obj.getClass();
